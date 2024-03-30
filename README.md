@@ -1,18 +1,63 @@
-## Getting Started
+# Aplikasi Pengelolaan Tugas Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Proyek ini merupakan aplikasi pengelolaan tugas sederhana yang dikembangkan menggunakan bahasa pemrograman Java. Tujuan proyek ini adalah untuk membantu memahami konsep struktur data seperti LinkedList, Stack, dan Queue, serta mengimplementasikan penggunaannya dalam konteks aplikasi praktis.
 
-## Folder Structure
+## Output
 
-The workspace contains two folders by default, where:
+```javascript
+PS D:\Aplikasi-Pengelolaan-Tugas>  & 'C:\Program Files\Java\jdk-17\bin\java.exe' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'D:\Aplikasi-Pengelolaan-Tugas\bin' 'Main'
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Menu:
+1. Add Task
+2. Remove Task
+3. Display Tasks
+4. Exit
+Enter your choice: 1
+Enter task title: 1. Sholat
+Enter task description: Sholat jam 04:30 - Habis Sholat Mengaji
+Enter structure type (LinkedList, Stack, or Queue): Queue
+Task added successfully.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Menu:
+1. Add Task
+2. Remove Task
+3. Display Tasks
+4. Exit
+Enter your choice: 1
+Enter task title: 2. Mandi
+Enter task description: Membersihkan badan
+Enter structure type (LinkedList, Stack, or Queue): Queue
+Task added successfully.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Menu:
+1. Add Task
+2. Remove Task
+3. Display Tasks
+4. Exit
+Enter your choice: 3
+Enter structure type to display tasks (LinkedList, Stack, or Queue): Queue
+Tasks in Queue:
+Task: 1. Sholat
+Description: Sholat jam 04:30 - Habis Sholat Mengaji
+Task: 2. Mandi
+Description: Membersihkan badan
 
-## Dependency Management
+Menu:
+1. Add Task
+2. Remove Task
+3. Display Tasks
+4. Exit
+Enter your choice:
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Authors
+
+- [Bagus Erwanto](https://www.github.com/volumeee)
+- [Muhamad Rifki Kurniawan](https://github.com/mrifki2204)
+- [Rizki Ramdhani](https://github.com/RizkiRamdhani05)
+- [Muhammad Erdiansyah](https://github.com/erdiansyahm)
+- [Nova Aditya](https://github.com/NVdty)
+
+## Support
+
+For support, Sumber Rejeki Team. Kelompok 2 SI6-Android-Mobile-Developer-Stechoq-Academy
